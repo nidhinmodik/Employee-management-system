@@ -1,0 +1,30 @@
+                            EMS BACKEND USINIG NODE AND EXPRESS
+                    --------------------------------------------------
+            1.create a server folder
+            2.create package.json file :- npm init -y
+            3.data stored in mongoDB (json)
+            4.Index.js file creation
+            5.create  an application using express :- npm i express (Automatically generate node_modules)
+            6.CORS :- npm i cors
+                 The word CORS stands for “Cross-Origin Resource Sharing”. Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the      browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.The word CORS stands for “Cross-Origin Resource Sharing”. Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.
+            7.complete the code on index.js
+            8.connecting to our database (mongoDB) (Node + mongoDB connection)
+                mongoose library is  used to connect to node and mongoDB
+                :- npm i mongoose
+            9.create a folder inside backend , inside it create a file named as db.js
+                for connecting node and mongoDB
+                -> mongoose library is used to connecct to node and mongoDB
+                    npm i mongoose
+            10.create a model and schema in backend , inside the db.js
+
+
+                    Backend                             mongoDB
+                ---------------                     ---------------
+                model-employee                      collection-employees
+         schema -(id:string,name:string....)       
+
+            11.create a logic.js file for implementing Backend logic. (inside the service folder)
+            
+            12.route setting
+            localhost:8000/get-all-employees -> all employees details that present in the mongoDB - (index.js)
+            
